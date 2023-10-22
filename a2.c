@@ -29,7 +29,7 @@ int main(int argc, char *argv[]) {
     int rank, size, arg;
     int rows = DEFAULT_GRID_SIZE;
     int columns = DEFAULT_GRID_SIZE;
-    int time_steps = 2;
+    int time_steps = 10;
 
     // Initialize MPI
     MPI_Init(&argc, &argv);

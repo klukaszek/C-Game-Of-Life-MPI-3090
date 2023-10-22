@@ -90,7 +90,6 @@ int main(int argc, char *argv[]) {
 
     // Determine the number of rows we have per process
     int rows_per_process = rows / size;
-    int remainder_rows = rows % size;
     if(rank == size - 1)
     {
         rows_per_process += rows % size;
